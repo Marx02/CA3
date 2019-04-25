@@ -224,10 +224,10 @@
         <configuration>
           <server>TomcatServer</server>
           <url>${remote.server}</url>
-          <!--<username>${remote.user}</username>-->
-          <!--<password>${remote.password}</password>-->
-          <username>${env.TOMCAT_USER} </username>
-          <password>${env.TOMCAT_PASSWORD}</password>
+          <username>${remote.user}</username>
+          <password>${remote.password}</password>
+          <!--<username>${env.TOMCAT_USER} </username>-->
+          <!--<password>${env.TOMCAT_PASSWORD}</password>-->
           <update>true</update>    
         </configuration>
        
